@@ -65,3 +65,7 @@ swiftc -O pinchlog.swift -o pinchlog && ./pinchlog > pinch.log; sort pinch.log |
 Then add a matching rule to the callback in `nopinch.swift`. Event types: `10` keyDown, `11` keyUp, `12` flagsChanged, `22` scrollWheel, `29` gesture, `30` magnify.
 
 Tested on macOS 26.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
